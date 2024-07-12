@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-          *{
+        *{
             margin: 0;
             padding: 0;
         }
-        #padding{
+        .pad{
             height: 100px;
             width: 100px;
-            margin: 10px 15px 20px 25px;
             padding: 10px;
+        }
+        #First{
+            margin: 10px 15px 20px 25px;
             background-color: brown;
+        }
+        #Second{
+            margin: 10px 15px 20px 25px;
+            background-color: rgb(17, 255, 0);
         }
     </style>
 </head>
 <body>
-    <div id="padding">Padded Box</div>
+    <div id="First" class="pad">First Box</div>
+    <div id="Second"class="pad">Second Box</div>
 </body>
 </html>
